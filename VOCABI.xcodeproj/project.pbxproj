@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		157709DC163913EC005071E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157709DB163913EC005071E2 /* UIKit.framework */; };
+		157709DE163913EC005071E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157709DD163913EC005071E2 /* Foundation.framework */; };
+		157709E0163913EC005071E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157709DF163913EC005071E2 /* CoreGraphics.framework */; };
+		157709E2163913EC005071E2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157709E1163913EC005071E2 /* CoreData.framework */; };
+		157709E8163913EC005071E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 157709E6163913EC005071E2 /* InfoPlist.strings */; };
+		157709EA163913EC005071E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 157709E9163913EC005071E2 /* main.m */; };
+		157709EE163913EC005071E2 /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 157709ED163913EC005071E2 /* VBAppDelegate.m */; };
+		157709F0163913EC005071E2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 157709EF163913EC005071E2 /* Default.png */; };
+		157709F2163913EC005071E2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 157709F1163913EC005071E2 /* Default@2x.png */; };
+		157709F4163913EC005071E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 157709F3163913EC005071E2 /* Default-568h@2x.png */; };
+		157709F7163913EC005071E2 /* VOCABI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 157709F5163913EC005071E2 /* VOCABI.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		157709D7163913EC005071E2 /* VOCABI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOCABI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		157709DB163913EC005071E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		157709DD163913EC005071E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		157709DF163913EC005071E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		157709E1163913EC005071E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		157709E5163913EC005071E2 /* VOCABI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VOCABI-Info.plist"; sourceTree = "<group>"; };
+		157709E7163913EC005071E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		157709E9163913EC005071E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		157709EB163913EC005071E2 /* VOCABI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VOCABI-Prefix.pch"; sourceTree = "<group>"; };
+		157709EC163913EC005071E2 /* VBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
+		157709ED163913EC005071E2 /* VBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
+		157709EF163913EC005071E2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		157709F1163913EC005071E2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		157709F3163913EC005071E2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		157709F6163913EC005071E2 /* VOCABI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VOCABI.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		157709D4163913EC005071E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157709DC163913EC005071E2 /* UIKit.framework in Frameworks */,
+				157709DE163913EC005071E2 /* Foundation.framework in Frameworks */,
+				157709E0163913EC005071E2 /* CoreGraphics.framework in Frameworks */,
+				157709E2163913EC005071E2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		157709CC163913EC005071E2 = {
+			isa = PBXGroup;
+			children = (
+				157709E3163913EC005071E2 /* VOCABI */,
+				157709DA163913EC005071E2 /* Frameworks */,
+				157709D8163913EC005071E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		157709D8163913EC005071E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				157709D7163913EC005071E2 /* VOCABI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		157709DA163913EC005071E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				157709DB163913EC005071E2 /* UIKit.framework */,
+				157709DD163913EC005071E2 /* Foundation.framework */,
+				157709DF163913EC005071E2 /* CoreGraphics.framework */,
+				157709E1163913EC005071E2 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		157709E3163913EC005071E2 /* VOCABI */ = {
+			isa = PBXGroup;
+			children = (
+				157709EC163913EC005071E2 /* VBAppDelegate.h */,
+				157709ED163913EC005071E2 /* VBAppDelegate.m */,
+				157709F5163913EC005071E2 /* VOCABI.xcdatamodeld */,
+				157709E4163913EC005071E2 /* Supporting Files */,
+			);
+			path = VOCABI;
+			sourceTree = "<group>";
+		};
+		157709E4163913EC005071E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				157709E5163913EC005071E2 /* VOCABI-Info.plist */,
+				157709E6163913EC005071E2 /* InfoPlist.strings */,
+				157709E9163913EC005071E2 /* main.m */,
+				157709EB163913EC005071E2 /* VOCABI-Prefix.pch */,
+				157709EF163913EC005071E2 /* Default.png */,
+				157709F1163913EC005071E2 /* Default@2x.png */,
+				157709F3163913EC005071E2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		157709D6163913EC005071E2 /* VOCABI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 157709FA163913EC005071E2 /* Build configuration list for PBXNativeTarget "VOCABI" */;
+			buildPhases = (
+				157709D3163913EC005071E2 /* Sources */,
+				157709D4163913EC005071E2 /* Frameworks */,
+				157709D5163913EC005071E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VOCABI;
+			productName = VOCABI;
+			productReference = 157709D7163913EC005071E2 /* VOCABI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		157709CE163913EC005071E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jiahao Li";
+			};
+			buildConfigurationList = 157709D1163913EC005071E2 /* Build configuration list for PBXProject "VOCABI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 157709CC163913EC005071E2;
+			productRefGroup = 157709D8163913EC005071E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				157709D6163913EC005071E2 /* VOCABI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		157709D5163913EC005071E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157709E8163913EC005071E2 /* InfoPlist.strings in Resources */,
+				157709F0163913EC005071E2 /* Default.png in Resources */,
+				157709F2163913EC005071E2 /* Default@2x.png in Resources */,
+				157709F4163913EC005071E2 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		157709D3163913EC005071E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157709EA163913EC005071E2 /* main.m in Sources */,
+				157709EE163913EC005071E2 /* VBAppDelegate.m in Sources */,
+				157709F7163913EC005071E2 /* VOCABI.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		157709E6163913EC005071E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				157709E7163913EC005071E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		157709F8163913EC005071E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		157709F9163913EC005071E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		157709FB163913EC005071E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VOCABI/VOCABI-Prefix.pch";
+				INFOPLIST_FILE = "VOCABI/VOCABI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		157709FC163913EC005071E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VOCABI/VOCABI-Prefix.pch";
+				INFOPLIST_FILE = "VOCABI/VOCABI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		157709D1163913EC005071E2 /* Build configuration list for PBXProject "VOCABI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157709F8163913EC005071E2 /* Debug */,
+				157709F9163913EC005071E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		157709FA163913EC005071E2 /* Build configuration list for PBXNativeTarget "VOCABI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				157709FB163913EC005071E2 /* Debug */,
+				157709FC163913EC005071E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		157709F5163913EC005071E2 /* VOCABI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				157709F6163913EC005071E2 /* VOCABI.xcdatamodel */,
+			);
+			currentVersion = 157709F6163913EC005071E2 /* VOCABI.xcdatamodel */;
+			path = VOCABI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 157709CE163913EC005071E2 /* Project object */;
+}
