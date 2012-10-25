@@ -2,21 +2,30 @@
 //  VBAppDelegate.h
 //  VOCABI
 //
-//  Created by Jiahao Li on 10/25/12.
+//  Created by Jiahao Li on 10/18/12.
 //  Copyright (c) 2012 Jiahao Li. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
+@class VBWelcomeViewController;
+@class VBWordlistViewController;
+@class VBSearchViewController;
+@class VBSyncViewController;
+@class VBWordsViewController;
+@class VBWordsSplitViewController;
+
 @interface VBAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    UITabBarController *_tbc;
+    VBWelcomeViewController *_wevc;
+    VBWordlistViewController *_wlvc;
+    VBSearchViewController *_svc;
+    VBWordlistViewController *_nvc;
+    VBSyncViewController *_syvc;
+    VBWordsSplitViewController *_nsvc; 
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
 
 @end
